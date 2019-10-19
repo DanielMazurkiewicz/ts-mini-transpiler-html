@@ -1,0 +1,32 @@
+{
+  "name": "ts-mini-transpiler-html",
+  "version": "0.0.1",
+  "description": "HTML transpiler for ts-mini",
+  "main": "transpiler.ts",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielMazurkiewicz/ts-mini-transpiler-html.git"
+  },
+  "keywords": [
+    "ts-mini",
+    "html",
+    "transpiler"
+  ],
+  "author": "Daniel Mazurkiewicz <daniel.mazurkiewicz.dm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielMazurkiewicz/ts-mini-transpiler-html/issues"
+  },
+  "homepage": "https://github.com/DanielMazurkiewicz/ts-mini-transpiler-html#readme",
+  "devDependencies": {
+    "@types/node": "^12.7.7",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@types/htmlparser2": "^3.10.1",
+    "htmlparser2": "^4.0.0"
+  }
+}
